@@ -9,222 +9,271 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Document</title>
 </head>
-<main>
-    <section class="bg_img position-relative   media_hover overflow-hidden">
-        <div class="nav_bar">
-            <div class="px-28  py_5">
-                <nav class="d-flex align-items-center justify-content-between  pt-16">
-                    <div class="cursor  ">
-                        <img class="w-100" src="./assets/image/svg/Logo.svg" alt="logo1">
-                    </div>
-                    <div class="mobile_view  d-flex justify-content-center align-items-center gap-26" id="navbar">
-                        <div class="d-flex gap-509 align-items-center flex-md-row flex-column">
-                            <div class="d-none d-lg-block">
-                                <div class="input_box d-flex justify-content-between  ">
-
-                                    <input type="text" placeholder="Search for Assets"
-                                        class="font-s fw-400 fs-sm line-21 white w-100"
-                                        style="outline: none; border: none; background-color: transparent;">
-                                    <img class="cursor" src="./assets/image/svg/search.svg" alt="svg">
-    
-                                </div>
-                            </div>
-                            <div class="d-block d-lg-none">
-                                <a href="https://www.google.co.in/" target="_blank"> <img  src="./assets/image/svg/search.svg" alt="svg"></a>
-                            </div>
-                             <div class=" dropdown"> 
-                                <div class=" d-flex gap-16  flex-md-row flex-column align-items-center ">
-                                    <div>
-                                        <img class="cursor" src="./assets/image/svg/svg.svg" alt="svg">
-                                    </div>
-                                    
-                                    <div class="box_1 cursor  d-flex gap-23 align-items-center">
-    
-                                        <div class="d-flex gap-9 align-items-center">
-                                            <img src="./assets/image/svg/circle_1.svg" alt="svg">
-                                            <h3 class="fw-400 mb-0 fs-md white line-18 text-nowrap font-s">Jhon Doe</h3>
-                                        </div>
-                                        <img src="./assets/image/svg/bottomsvg.svg" alt="svg">
-                                    </div>
-                                    
-                                </div>
-                               <div class="dropdown_1">
-
-                                <div class=" d-flex gap-16   ">
-                                     
-                                    <div class="box_1 d-flex gap-23 align-items-center">
-    
-                                        <div class="d-flex gap-9 align-items-center">
-                                            <img src="./assets/image/svg/circle_1.svg" alt="svg">
-                                            <h3 class="fw-400 mb-0 fs-md white line-18 text-nowrap font-s">Jhon Doe</h3>
-                                        </div>
-                                        <img src="./assets/image/svg/bottomsvg.svg" alt="svg">
-                                    </div>
-                                    
-                                </div>
-                               </div>
-                             </div>
-                        </div>
-                    </div>
-                    <div class="menu z-40 d-md-none d-block  " onclick="openNav()">
-                        <span></span>
-                        <span class="my-2"> </span>
-                        <span></span>
-                    </div>
-                </nav>
-            </div>
-        </div>
-        <div class="d- none position-relative">
-            <div class="d-flex  ">
-                <div class=" d-none d-md-block ">
-                    <div class="box_2  d-flex justify-content-between flex-column">
-
-                        <div class="d-flex gap-32">
-                            <div>
-                                <div class="time_line  cursor  d-flex gap-12 align-items-center">
-                                    <img class="cursor" src="./assets/image/svg/timeline.svg" title="Timeline" alt="svg">
-                                    <h2 class="fw-400 fs-sm mb-0 white line-16 d-none d-lg-block op-70 under_line ">Timeline</h2>
-                                </div>
-                                <div class="time_line  cursor  d-flex mt-8 gap-12 align-items-center">
-                                    <img  class="cursor" src="./assets/image/svg/graphis.svg" alt="svg" title="Graphics">
-                                    <h2 class="fw-400 fs-sm mb-0 white line-16 op-70  d-none d-lg-block under_line ">Graphics</h2>
-                                </div>
-                                <div class="time_line  cursor  mt-8 d-flex gap-12 align-items-center">
-                                    <img  class="cursor" src="./assets/image/svg/Vector1.svg" alt="svg" title="Portfolio">
-                                    <h2 class="fw-400 fs-sm mb-0 white line-16  d-none d-lg-block op-70 under_line">Portfolio</h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="d-flex gap-32">
-                            <div>
-                                <div class="time_line   cursor  d-flex gap-12 align-items-center">
-                                    <img class="cursor"  src="./assets/image/svg/Vector2.svg" alt="svg" title="Help">
-                                    <h2 class="fw-400 fs-sm mb-0 white line-16  d-none d-lg-block op-70 under_line">Help</h2>
-                                </div>
-                                <div class="time_line mt-8 d-flex gap-12  cursor  align-items-center">
-                                    <img  class="cursor" src="./assets/image/svg/Vector3.svg" alt="svg" title="Logout">
-                                    <h2 class="fw-400 fs-sm mb-0 white line-16  d-none d-lg-block op-70 under_line">Logout</h2>
-                                </div>
-                            </div>
-                        </div>
-    
-                       
-                       
-                    </div>
-                </div>
-                <div class="position-absolute small_box d-block d-md-none">
-                    <div class="mobile_view_1 d-block d-md-none  d-flex justify-content-center align-it ems-center  " id="navbar_1">
-                        <div class="d-flex justify-content-center flex-column ">
-                           <div>
-                               <div class="time_line d-flex gap-12 align-items-center" onclick="closenav()">
-                                   <img class="cursor" src="./assets/image/svg/timeline.svg" title="Timeline"  alt="svg">
-                                   <h2 class="fw-400 fs-sm mb-0 white line-16  cursor under_line op-70 ">Timeline</h2>
-                               </div>
-                               <div class="time_line d-flex mt-8 gap-12 align-items-center" onclick="closenav()">
-                                   <img  class="cursor" src="./assets/image/svg/graphis.svg" alt="svg" title="Graphics">
-                                   <h2 class="fw-400 fs-sm mb-0 white line-16 op-70 under_line cursor   ">Graphics</h2>
-                               </div>
-                               <div class="time_line mt-8 d-flex gap-12 align-items-center" onclick="closenav()">
-                                   <img  class="cursor" src="./assets/image/svg/Vector1.svg" alt="svg"   title="Portfolio">
-                                   <h2 class="fw-400 fs-sm mb-0 white line-16 under_line cursor   op-70">Portfolio</h2>
-                               </div>
-                           </div>
-                           <div>
-                               <div class="time_line   d-flex gap-12 align-items-center" onclick="closenav()">
-                                   <img class="cursor"  src="./assets/image/svg/Vector2.svg" alt="svg" title="Help">
-                                   <h2 class="fw-400 fs-sm mb-0 white line-16 under_line cursor  op-70">Help</h2>
-                               </div>
-                               <div class="time_line mt-8 d-flex gap-12 align-items-center" onclick="closenav()">
-                                   <img  class="cursor" src="./assets/image/svg/Vector3.svg" alt="svg" onclick="closenav()" title="Logout">
-                                   <h2 class="fw-400 fs-sm mb-0 white line-16 under_line cursor   op-70">Logout</h2>
-                               </div>
-                           </div>
-                 
-                        </div>
-                   </div>
-              
-                <div class="menu_1 bg_blue z-5 d-md-none d-block  " onclick="closenav()">
-                    <img src="./assets/image/svg/menu-svgrepo-com.svg" alt="">
-                </div>
-                  </div>
-                <div class="w-100 bg_color_1">
-                    <div class="container position-relative max-w-1120 box_3">
-                        <div class="pt-5 pt-md-0 ">
-                            <div class="d-flex align-items-center justify-content-between">
-                                <h1 class="fw-500 mb-0 fs-xl white line-27">Notifications</h1>
-                                <button class="fw-500 fs-md line-18 border-1 btn_back">Back</button>
-                            </div>
-                            <div class="notifi_cation mt-9">
-                                <h3 class="fw-500 fs-lg line-22 mb-0 white gt-fo nt text-center text-md-start">$ 100 Deposited Successfuly</h3>
-                                <p class="font-s mb-0 white fw-400 fs-sm line-21 max-w-698 op-70 pt-6 text-center text-md-start">Pellentesque faucibus
-                                    ut
-                                    feugiat pulvinar morbi a quam aenean nulla. Tellus eu scelerisque vitae auctor pretium
-                                    mauris consectetur et. Scelerisque non cras egestas lorem erat semper.</p>
-                                <div class="pt-20 d-flex  justify-content-sm-between justify-content-center   flex-sm-nowrap flex-wrap">
-                                    <button class="fw-500 white fs-md line-18 btn_view text-nowrap">View Portfolio</button>
-                                    <div class="btn_mark d-flex mt_20  align-items-center gap-8 ms-sm-0 ms-3">
-                                        <img src="./assets/image/svg/done.svg" alt="svg">
-                                        <h3 class="fw-500 mb-0 fs-md line-18 border-1 text-nowrap ">Mark as read</h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="notifi_cation mt-14">
-                                <h3 class="fw-500 fs-lg line-22 mb-0 white text-center text-md-start">$ 100 Deposited Successfuly</h3>
-                                <p class="font-s mb-0 white fw-400 fs-sm line-21 max-w-698 op-70 pt-6 text-center text-md-start">Pellentesque faucibus
-                                    ut
-                                    feugiat pulvinar morbi a quam aenean nulla. Tellus eu scelerisque vitae auctor pretium
-                                    mauris consectetur et. Scelerisque non cras egestas lorem erat semper.</p>
-                                <div class="pt-20 d-flex justify-content-sm-between  justify-content-center flex-sm-nowrap flex-wrap">
-                                    <button class="fw-500 white fs-md line-18 btn_view text-nowrap">View Portfolio</button>
-                                    <div class="btn_mark d-flex mt_20  align-items-center gap-8 ms-sm-0 ms-3 ">
-                                        <img src="./assets/image/svg/done.svg" alt="svg">
-                                        <h3 class="fw-500 mb-0 fs-md line-18 border-1 text-nowrap ">Mark as read</h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="notifi_cation mt-14">
-                                <h3 class="fw-500 fs-lg line-22 mb-0 white text-center text-md-start ">$ 100 Deposited Successfuly</h3>
-                                <p class="font-s mb-0 white fw-400 fs-sm line-21 max-w-698 op-70 text-center text-md-start pt-6">Pellentesque faucibus
-                                    ut
-                                    feugiat pulvinar morbi a quam aenean nulla. Tellus eu scelerisque vitae auctor pretium
-                                    mauris consectetur et. Scelerisque non cras egestas lorem erat semper.</p>
-                                <div class="pt-20 d-flex justify-content-between flex-sm-nowrap flex-wrap">
-                                    <button class="fw-500 white fs-md line-18 btn_view text-nowrap">View Portfolio</button>
-                                    <div class="btn_mark_1 d-flex cursor  align-items-center">
-                                        <img src="./assets/image/svg/done.svg" alt="svg">
-    
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class="last_text d-flex flex-wrap  justify-content-md-between text-center text-md-start justify-content-center align-items-center">
-                        <p class="font-s mb-0 fw-400 fs-sm white line-21 ">© Copyright 2021 Pantera | All rights
-                            reserved.</p>
-                        <div class="d-flex gap-16 cursor pt-md-0 pt-4">
-                            <div class="circle_media d-flex justify-content-center align-items-center">
-                                <a href="https://www.facebook.com/" target="_blank"> <img src="./assets/image/svg/ri_facebook-fill.svg" alt="svg"></a>
-                            </div>
-                            <div class="circle_media cursor d-flex justify-content-center align-items-center">
-                                <a href="https://www.instagram.com/"  target="_blank"> <img src="./assets/image/svg/ri_instagram-fill.svg" alt="svg"></a>
-                            </div>
-                            <div class="circle_media cursor d-flex justify-content-center align-items-center">
-                                <a href="https://x.com/?lang=en"  target="_blank"> <img src="./assets/image/svg/mdi_twitter.svg" alt="svg"></a>
-                            </div>
-                            <div class="circle_media cursor d-flex justify-content-center align-items-center">
-                                <a href="https://in.linkedin.com/"  target="_blank"> <img src="./assets/image/svg/ri_linkedin-fill.svg" alt="svg"></a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-</main>
 
 <body>
+    <main>
+        <section class="bg_img position-relative   media_hover overflow-hidden">
+            <div class="nav_bar">
+                <div class="px-28    py_5">
+                    <nav class="d-flex align-items-center justify-content-between  pt-16">
+                        <div class="cursor  ">
+                            <img class="w-100" src="./assets/image/svg/Logo.svg" alt="logo1">
+                        </div>
+                        <div class="mobile_view  d-flex justify-content-center align-items-center gap-26" id="navbar">
+                            <div class="d-flex gap-509 align-items-center flex-md-row flex-column">
+                                <div class="d-none d-lg-block">
+                                    <div class="input_box d-flex justify-content-between  ">
+
+                                        <input type="text" placeholder="Search for Assets"
+                                            class="font-s fw-400 fs-sm line-21 white w-100"
+                                            style="outline: none; border: none; background-color: transparent;">
+                                        <img class="cursor ms-3" src="./assets/image/svg/search.svg" alt="svg">
+
+                                    </div>
+                                </div>
+                                <div class="d-block d-lg-none">
+                                    <a href="https://www.google.co.in/" target="_blank"> <img
+                                            src="./assets/image/svg/search.svg" alt="svg"></a>
+                                </div>
+                                <div class=" dropdown">
+                                    <div class=" d-flex gap-16  flex-md-row flex-column align-items-center ">
+                                        <div class="fill_change">
+                                            <img class="cursor fill_change" src="./assets/image/svg/svg.svg" alt="svg">
+                                        </div>
+
+                                        <div class="box_1 cursor  d-flex gap-23 align-items-center">
+
+                                            <div class="d-flex gap-9 align-items-center">
+                                                <img src="./assets/image/svg/circle_1.svg" alt="svg">
+                                                <h3 class="fw-400 mb-0 fs-md white line-18 text-nowrap font-s">Jhon Doe
+                                                </h3>
+                                            </div>
+                                            <img src="./assets/image/svg/bottomsvg.svg" alt="svg">
+                                        </div>
+
+                                    </div>
+                                    <div class="dropdown_1">
+
+                                        <div class=" d-flex gap-16   ">
+
+                                            <div class="box_1 d-flex gap-23 align-items-center">
+
+                                                <div class="d-flex gap-9 align-items-center">
+                                                    <img src="./assets/image/svg/circle_1.svg" alt="svg">
+                                                    <h3 class="fw-400 mb-0 fs-md white line-18  text-nowrap font-s">Jhon
+                                                        Doe</h3>
+                                                </div>
+                                                <img src="./assets/image/svg/bottomsvg.svg" alt="svg">
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu z-40 d-md-none d-block  " onclick="openNav()">
+                            <span></span>
+                            <span class="my-2"> </span>
+                            <span></span>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="d- none position-relative">
+                <div class="d-flex  ">
+                    <div class=" d-none d-md-block ">
+                        <div class="box_2  d-flex justify-content-between flex-column">
+
+                            <div class="d-flex gap-32">
+                                 <div class="">
+                                    <div class="time_line  cursor  d-flex gap-12 align-items-center">
+                                        <img class="cursor" src="./assets/image/svg/timeline.svg" title="Timeline"
+                                            alt="svg">
+                                        <h2 class="fw-400 gt-font fs-sm mb-0 white line-16 d-none d-lg-block op-70 under_line ">
+                                            Timeline</h2>
+                                    </div>
+                                    <div class="time_line  cursor  d-flex mt-8 gap-12 align-items-center">
+                                        <img class="cursor" src="./assets/image/svg/graphis.svg" alt="svg"
+                                            title="Graphics">
+                                        <h2
+                                            class="fw-400 gt-font fs-sm mb-0 white line-16 op-70  d-none d-lg-block under_line ">
+                                            Graphics</h2>
+                                    </div>
+                                    <div class="time_line  cursor  mt-8 d-flex gap-12 align-items-center">
+                                        <img class="cursor" src="./assets/image/svg/Vector1.svg" alt="svg"
+                                            title="Portfolio">
+                                        <h2 class="fw-400 gt-font fs-sm mb-0 white line-16  d-none d-lg-block op-70 under_line">
+                                            Portfolio</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex gap-32">
+                                <div>
+                                    <div class="time_line   cursor  d-flex gap-12 align-items-center">
+                                        <img class="cursor" src="./assets/image/svg/Vector2.svg" alt="svg" title="Help">
+                                        <h2 class="fw-400 fs-sm gt-font mb-0 white line-16  d-none d-lg-block op-70 under_line">
+                                            Help</h2>
+                                    </div>
+                                    <div class="time_line gt-font mt-8 d-flex gap-12  cursor  align-items-center">
+                                        <img class="cursor" src="./assets/image/svg/Vector3.svg" alt="svg"
+                                            title="Logout">
+                                        <h2 class="fw-400 fs-sm mb-0 white line-16  d-none d-lg-block op-70 under_line">
+                                            Logout</h2>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                    
+                    <div class="w-100 bg_color_1   position-relative">
+                        <div class="container pb-125 position-relative max-w-1120 box_3">
+                            <div class="pt-5 pt-md-0 ">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <h1 class="fw-500 mb-0 fs-xl white line-27 gt-font">Notifications</h1>
+                                    <button class="fw-500 fs-md line-18 border-1 btn_back">Back</button>
+                                </div>
+                                <div class="position-absolute small_box d-block d-md-none">
+                                    <div class="mobile_view_1 d-block d-md-none  d-flex justify-content-center align-it ems-center  "
+                                        id="navbar_1">
+                                        <div class="d-flex  justify-content-center flex-column ">
+                                            <div>
+                                                <div class="time_line d-flex gap-12 align-items-center" onclick="closenav()">
+                                                    <img class="cursor" src="./assets/image/svg/timeline.svg" title="Timeline"
+                                                        alt="svg">
+                                                    <h2 class="fw-400 gt-font fs-sm mb-0 white line-16  cursor under_line op-70 ">Timeline
+                                                    </h2>
+                                                </div>
+                                                <div class="time_line d-flex mt-8 gap-12 align-items-center" onclick="closenav()">
+                                                    <img class="cursor" src="./assets/image/svg/graphis.svg" alt="svg"
+                                                        title="Graphics">
+                                                    <h2 class="fw-400 gt-font fs-sm mb-0 white line-16 op-70 under_line cursor   ">Graphics
+                                                    </h2>
+                                                </div>
+                                                <div class="time_line mt-8 d-flex gap-12 align-items-center" onclick="closenav()">
+                                                    <img class="cursor" src="./assets/image/svg/Vector1.svg" alt="svg"
+                                                        title="Portfolio">
+                                                    <h2 class="fw-400 gt-font fs-sm mb-0 white line-16 under_line cursor   op-70">Portfolio
+                                                    </h2>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="time_line   d-flex gap-12 align-items-center" onclick="closenav()">
+                                                    <img class="cursor" src="./assets/image/svg/Vector2.svg" alt="svg" title="Help">
+                                                    <h2 class="fw-400 gt-font fs-sm mb-0 white line-16 under_line cursor  op-70">Help</h2>
+                                                </div>
+                                                <div class="time_line mt-8 d-flex gap-12 align-items-center" onclick="closenav()">
+                                                    <img class="cursor" src="./assets/image/svg/Vector3.svg" alt="svg"
+                                                        onclick="closenav()" title="Logout">
+                                                    <h2 class="fw-400 gt-font fs-sm mb-0 white line-16 under_line cursor   op-70">Logout
+                                                    </h2>
+                                                </div>
+                                            </div>
+            
+                                        </div>
+                                    </div>
+            
+                                    <div class="menu_1 bg_blue z-5 d-md-none d-block  " onclick="closenav()">
+                                        <img src="./assets/image/svg/menu-svgrepo-com.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="notifi_cation mt-9">
+                                    <h3 class="fw-500 fs-lg line-22 mb-0 white gt-fo nt text-center text-md-start gt-font">$ 100
+                                        Deposited Successfuly</h3>
+                                    <p
+                                        class="font-s mb-0 white fw-400 fs-sm line-21 max-w-698 op-70 pt-6 text-center text-md-start">
+                                        Pellentesque faucibus
+                                        ut
+                                        feugiat pulvinar morbi a quam aenean nulla. Tellus eu scelerisque vitae auctor
+                                        pretium
+                                        mauris consectetur et. Scelerisque non cras egestas lorem erat semper.</p>
+                                    <div
+                                        class="pt-20 d-flex  justify-content-sm-between justify-content-center   flex-sm-nowrap flex-wrap">
+                                        <button class="fw-500 white fs-md line-18 btn_view mt_20 gt-font text-nowrap">View
+                                            Portfolio</button>
+                                        <div class="btn_mark d-flex mt_20  align-items-center gap-8 ms-sm-0 ms-3">
+                                            <img src="./assets/image/svg/done.svg" alt="svg">
+                                            <h3 class="fw-500 mb-0 fs-md line-18 border-1 gt-font text-nowrap ">Mark as read
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="notifi_cation mt-14">
+                                    <h3 class="fw-500 fs-lg line-22 mb-0 white gt-font text-center text-md-start">$ 100
+                                        Deposited Successfuly</h3>
+                                    <p
+                                        class="font-s mb-0 white fw-400 fs-sm line-21 max-w-698 op-70 pt-6 text-center text-md-start">
+                                        Pellentesque faucibus
+                                        ut
+                                        feugiat pulvinar morbi a quam aenean nulla. Tellus eu scelerisque vitae auctor
+                                        pretium
+                                        mauris consectetur et. Scelerisque non cras egestas lorem erat semper.</p>
+                                    <div
+                                        class="pt-20 d-flex justify-content-sm-between  justify-content-center flex-sm-nowrap flex-wrap">
+                                        <button class="fw-500 white gt-font fs-md line-18 btn_view  mt_20 text-nowrap">View
+                                            Portfolio</button>
+                                        <div class="btn_mark d-flex mt_20  align-items-center gap-8 ms-sm-0 ms-3 ">
+                                            <img src="./assets/image/svg/done.svg" alt="svg">
+                                            <h3 class="fw-500 mb-0 fs-md line-18 border-1 text-nowrap gt-font">Mark as read
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="notifi_cation mt-14 ">
+                                    <h3 class="fw-500 fs-lg line-22 mb-0 white text-center text-md-start gt-font">$ 100
+                                        Deposited Successfuly</h3>
+                                    <p
+                                        class="font-s mb-0 white fw-400 fs-sm line-21 max-w-698 op-70 text-center text-md-start pt-6">
+                                        Pellentesque faucibus
+                                        ut
+                                        feugiat pulvinar morbi a quam aenean nulla. Tellus eu scelerisque vitae auctor
+                                        pretium
+                                        mauris consectetur et. Scelerisque non cras egestas lorem erat semper.</p>
+                                    <div class="pt-20 d-flex justify-content-sm-between justify-content-center   flex-sm-nowrap flex-wrap">
+                                        <button class="fw-500 white fs-md line-18 gt-font btn_view text-nowrap">View
+                                            Portfolio</button>
+                                        <div class="btn_mark_1 d-flex cursor ms-3 ms-sm-0 align-items-center">
+                                            <img src="./assets/image/svg/done.svg" alt="svg">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div
+                            class="last_text  d-flex flex-wrap position-absolute  justify-content-md-between text-center text-md-start justify-content-center align-items-center">
+                            <p class="font-s mb-0 fw-400 fs-sm white line-21">© Copyright 2021 Pantera | All rights
+                                reserved.</p>
+                            <div class="d-flex gap-16 cursor pt-sm-0 pt-4">
+                                <div class="circle_media ms-4 ms-md-0  d-flex justify-content-center align-items-center">
+                                    <a href="https://www.facebook.com/" target="_blank"> <img
+                                            src="./assets/image/svg/ri_facebook-fill.svg" alt="svg"></a>
+                                </div>
+                                <div class="circle_media cursor d-flex justify-content-center align-items-center">
+                                    <a href="https://www.instagram.com/" target="_blank"> <img
+                                            src="./assets/image/svg/ri_instagram-fill.svg" alt="svg"></a>
+                                </div>
+                                <div class="circle_media cursor d-flex justify-content-center align-items-center">
+                                    <a href="https://x.com/?lang=en" target="_blank"> <img
+                                            src="./assets/image/svg/mdi_twitter.svg" alt="svg"></a>
+                                </div>
+                                <div class="circle_media cursor d-flex justify-content-center align-items-center">
+                                    <a href="https://in.linkedin.com/" target="_blank"> <img
+                                            src="./assets/image/svg/ri_linkedin-fill.svg" alt="svg"></a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>

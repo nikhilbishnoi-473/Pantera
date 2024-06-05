@@ -8,4 +8,4 @@ function openNav() {
     document.body.classList.toggle("overflow_hidden_1");
     document.querySelector(".menu_1").classList.toggle("cross_1")
   }
-  
+   
