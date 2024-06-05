@@ -37,7 +37,7 @@
 .nav_bar {
     width: 100%;
     border: 0px 0px 1px 0px;
-    background: var(--blue);
+    background: var(--blue-1);
     border-bottom: 1px solid #62C9CC1F;
 
 }
@@ -157,12 +157,12 @@ transition: all 400ms linear;
 .notifi_cation{
    max-width: 1120px;
    border-radius: 10px;
-   background:  var(--border);
+   background:  #62C9CC0A;
    padding: 20px;
    transition: all ease-in-out 400ms;
 }
 .notifi_cation:hover{
-box-shadow: 0px 0px 10px 0px var(--white);
+box-shadow: 0px 0px 10px 0px var(--border-1);
 }
 .max-w-698{
     max-width: 698px;
@@ -280,6 +280,9 @@ background: var(--border);
 }
 .fill_change:hover .image svg path{
     fill: white !important;
+}
+.gap_16{
+    gap: 16px;
 }
 @media (max-width: 1320px) {
     .gap-509{
@@ -442,6 +445,7 @@ background: var(--border);
     .menu_1 span {
         transition: all 400ms linear;
     }
+    
 
     .cross_1 span:nth-child(1) {
         transform: rotate(42deg) translateY(16px);
@@ -462,7 +466,9 @@ background: var(--border);
     .right_1 {
         left: 0;
     }
-
+.gap-16{
+    gap: 50px;
+} 
     .flex-col {
         flex-direction: column;
     }
