@@ -1,0 +1,93 @@
+:root {
+    /* font-size */
+    --fs-sm: 14px;
+    --fs-md: 16px;
+    --fs-lg: 20px;
+    --fs-xl: 24px;
+    /* font-weight */
+    --fw-400: 400;
+    --fw-500: 500;
+    --fw-600: 600;
+    /* color */
+    --white: #FFFFFF;
+    --blue: #12123A;
+    --blue-1: #14163D;
+    --border: #62C9CC1F;
+    --border-1: #62C9CC;
+    --op-color: #62C9CC1A;
+    
+    /* line-height */
+    --line-16: 16px;
+    --line-18: 18px;
+    --line-21: 21px;
+    --line-22: 22px;
+    --line-27: 27px;
+}
+.op-color{
+    color: var(--op-color);
+}
+.border-1{
+    color: var(--border-1);
+}
+.border{
+    color: var(--border);
+}
+.font-s {
+    font-family: 'Segoe UI', sans-serif;
+}
+.gt-font {
+    font-family: 'GT Walsheim Pro', sans-serif;
+}
+
+
+
+.line-16{
+    line-height: var(--line-16);
+}
+.line-18{
+    line-height: var(--line-18);
+}
+.line-21{
+    line-height: var(--line-21);
+}
+.line-22{
+    line-height: var(--line-22);
+}
+.line-27{
+    line-height: var(--line-27);
+}
+.white{
+    color: var(--white);
+}
+.blue{
+    color: var(--blue);
+}
+.blue-1{
+    color: var(--blue-1);
+}
+
+.fw-400{
+    font-weight: var(--fw-400);
+}
+.fw-500{
+    font-weight: var(--fw-500);
+}
+.fw-600{
+    font-weight: var(--fw-600);
+}
+
+.fs-sm {
+    font-size: var(--fs-sm);
+}
+
+.fs-md {
+    font-size: var(--fs-md);
+}
+
+.fs-lg {
+    font-size: var(--fs-lg);
+}
+
+.fs-xl {
+    font-size: var(--fs-xl);
+}
